@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block conteudo %}
+    <!-- Corpo - Entre em contato -->
+    <div class="conteudo">
+        <div>
+            <h1>Entre em contato</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet mollis nisl.</p>
+        </div>
+        <hr>
+        <!-- Corpo com os inputs -->
+        <div>
+            <form>
+                <label for="email">Seu e-mail:</label><br>
+                <input name="email" type="email"><br>
+                <label for="assunto">Assunto:</label><br>
+                <input name="assunto" type="text"><br>
+                <label for="descricao">Descrição:</label><br>
+                <textarea name="descricao" type="text"></textarea>
+                <br>
+                <button type="submit" value="Enviar">Enviar</button>
+            </form>
+        </div>
+    </div>
+{% endblock %}

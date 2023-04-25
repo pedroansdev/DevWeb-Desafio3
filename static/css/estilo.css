@@ -1,0 +1,41 @@
+/* Configuração de tags */
+footer{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}
+/* Configuração de classes */
+.flex-container{
+    float:right;
+    padding-top:20px;
+}
+
+.conteudo{
+    width: 70%;
+    margin: auto;
+}
+
+/* Configurações a partir de IDs */
+
+#header{
+    border-top: 6px solid;
+    border-color: #6D78A8;
+}
+
+#header .conteudo{
+    padding-top: 10px;
+}
+
+#img-capa{
+    margin-top: 10px;
+    width: 100%;
+    background-color: #EFEFEF;
+    text-align: center;
+}
+
+#img-capa img{
+    padding-top:2px;
+    width:70%;
+}
