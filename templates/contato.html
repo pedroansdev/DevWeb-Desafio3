@@ -10,13 +10,14 @@
         <hr>
         <!-- Corpo com os inputs -->
         <div>
-            <form>
+            <form method="post" action="/contato">
+
                 <label for="email">Seu e-mail:</label><br>
-                <input name="email" type="email"><br>
+                <input type="email" name="email" required><br>
                 <label for="assunto">Assunto:</label><br>
-                <input name="assunto" type="text"><br>
+                <input type="text" name="assunto" required><br>
                 <label for="descricao">Descrição:</label><br>
-                <textarea name="descricao" type="text"></textarea>
+                <textarea type="text" name="descricao" required></textarea>
                 <br>
                 <button type="submit" value="Enviar">Enviar</button>
             </form>
