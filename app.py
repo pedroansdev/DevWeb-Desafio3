@@ -1,4 +1,5 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request
+from flask_mysqldb import MySQL
 
 app = Flask("__name__", static_folder="./static", template_folder="./templates")
 
@@ -17,7 +18,7 @@ def index():
 def quemSomos():
     return render_template("quemsomos.html")
 
-@app.route("/contato", methods['POST','GET'])
+@app.route("/contato", methods=['POST','GET'])
 def contato():
     if request.method == 'POST':
         email = request.form['email']
