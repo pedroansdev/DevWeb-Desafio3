@@ -1,4 +1,4 @@
-# DevWeb-Desafio2
+# DevWeb-Desafio3
 
 ## Objetivo: 
 <p> Implementar ao projeto <a href="https://github.com/pedroansdev/DevWeb-Desafio2/">DevWeb-Desafio2</a> uma base de dados <a href="https://www.w3schools.com/sql/">SQL</a> </p>
