@@ -39,3 +39,15 @@ p{
     padding-top:2px;
     width:70%;
 }
+
+.conteudo-users{
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+#table td, th{
+    border-style: solid;
+}
