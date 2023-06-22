@@ -1,0 +1,121 @@
+@media (max-width: 1440px){
+    p, a, li, label{
+        font-size: 22px;
+    }
+
+    h4{
+        font-size: 24px;
+    }
+
+    input[type=text], input[type=email]{
+        width: 400px;
+        height: 30px;
+    }
+    
+    textarea{
+        width: 400px;
+        height: 60px;
+    }
+    
+    button{
+        width: 80px;
+        height: 40px;
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 1024px){
+    p, a, li, label{
+        font-size: 18px;
+    }
+
+    h4{
+        font-size: 20px;
+    }
+
+    input[type=text], input[type=email]{
+        width: 200px;
+        height: 20px;
+    }
+    
+    textarea{
+        width: 200px;
+        height: 60px;
+    }
+    
+    button{
+        width: 60px;
+        height: 30px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px){
+    p, a, li, label{
+        font-size: 16px;
+    }
+
+    h4{
+        font-size: 18px;
+    }
+
+    input[type=text], input[type=email]{
+        width: 200px;
+        height: 20px;
+    }
+    
+    textarea{
+        width: 200px;
+        height: 60px;
+    }
+    
+    button{
+        width: 50px;
+        height: 25px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 425px){
+    .conteudo{
+        width: 90%
+    }
+
+    #unesLogo{
+        width: 150px;
+    }
+    
+    p, a, li, label{
+        font-size: 14px;
+    }
+
+    .flex-container{
+        padding-top: 10px;
+    }
+}
+
+@media (max-width: 375px){
+    #unesLogo{
+        width: 100px;
+    }
+
+    #img-capa img{
+        width: 90%;
+    }
+}
+
+@media (max-width: 320px){
+    #unesLogo{
+        display: none;
+    }
+    
+    .flex-container{
+        padding-top: 0px;
+        float: center;
+        /* margin-bottom: 10px; */
+    }
+
+    #img-capa{
+        margin-top: 20px;
+    }
+}
